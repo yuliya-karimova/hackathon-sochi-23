@@ -1,0 +1,30 @@
+{
+  "name": "sochi-23",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "leaflet-geosearch": "^3.10.0",
+    "vue": "^3.3.4",
+    "vue-router": "^4.0.13",
+    "vue2-leaflet-geosearch": "^1.0.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vue-leaflet/vue-leaflet": "^0.10.1",
+    "autoprefixer": "^10.4.16",
+    "leaflet": "^1.9.4",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vue-tsc": "^1.8.5"
+  }
+}

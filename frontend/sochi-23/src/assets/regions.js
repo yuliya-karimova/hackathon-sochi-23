@@ -1,4 +1,4 @@
-const regions = [
+export const regions = [
   {
       "id": 514,
       "name": "Алтайский край",

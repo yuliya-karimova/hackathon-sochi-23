@@ -1,4 +1,4 @@
-const cities = [
+export const cities = [
   {
       "id": 7824,
       "region_id": 548,
