@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-100 rounded-2xl p-8">
+  <div class="rounded-2xl p-8" :class="cardClass || 'bg-gray-200'">
     <div class="text-2xl uppercase font-bold pb-2">{{ title }}</div>
     <div v-if="description" class="font-light pb-2">{{ description }}</div>
     <div
@@ -16,6 +16,7 @@ interface Props {
   description?: string;
   img: string;
   imgClass?: string;
+  cardClass?: string
 }
 
 defineProps<Props>();

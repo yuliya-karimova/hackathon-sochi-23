@@ -4,5 +4,6 @@
 @tailwind utilities;
 
 body {
+  /* font-family: 'Wix Madefor Display', sans-serif; */
   font-family: 'Oswald', sans-serif;
 }
