@@ -21,13 +21,13 @@
         <Card
           title="Населенный пункт"
           description="Возможность выбора населенного пункта на карте"
-          img="/city.jpg"
+          img="./city.jpg"
           class="lg:w-4/6"
         />
         <Card
           title="Анализ данных"
           description="Учет множества факторов"
-          img="/analysis.jpg"
+          img="./analysis.jpg"
           class="lg:w-2/6"
         />
       </div>
@@ -35,13 +35,13 @@
         <Card
           title="Рекомендации"
           description="Поиск эффективных решений"
-          img="/park.jpg"
+          img="./park.jpg"
           class="lg:w-2/6"
         />
         <Card
           title="Здоровье"
           description="Повышение уровня здоровья населения за счет качественного анализа"
-          img="/child.jpg"
+          img="./child.jpg"
           class="lg:w-4/6"
         />
       </div>
@@ -50,13 +50,13 @@
       <Content
         title="Изучите влияние факторов городской среды"
         description="Мы анализируем, как факторы городской среды влияют на здоровье населения, пссихологическую обстановку, уровень жизни"
-        img="/sport.jpg"
+        img="./sport.jpg"
         textAlign="right"
       />
       <Content
         title="Населенный пункт"
         description="Возможность выбора населенного пункта на карте"
-        img="/night.jpg"
+        img="./night.jpg"
         textAlign="left"
       />
     </div>
