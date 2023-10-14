@@ -4,13 +4,13 @@ import Analysis from './views/Analysis.vue'
 import Compare from './views/Compare.vue'
 
 const routes = [
-  { path: '/', component: Home },
+  { path: '/home', component: Home },
   { path: '/analysis', component: Analysis },
   { path: '/compare', component: Compare },
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory('/hackathon-sochi-23/'),
   routes
 })
 
