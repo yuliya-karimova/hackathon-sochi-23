@@ -1,7 +1,7 @@
 <template>
     <!-- <iframe src="/shap_plot.html" width="100%" height="500" frameborder="0"></iframe> -->
     <div class="relative">
-      <iframe src="./map_with_features.html" width="100%" height="500" frameborder="0">
+      <iframe src="./map_with_features.html" width="100%" height="650" frameborder="0">
       </iframe>
       <div class="absolute bottom-0 w-full h-5 bg-white"></div>
     </div>

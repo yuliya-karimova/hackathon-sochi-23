@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header />
-    <div class="mx-auto max-w-screen-2xl p-8 flex flex-col gap-12">
+    <div class="mx-auto max-w-screen-2xl px-8 pt-4 pb-8 flex flex-col gap-12">
       <!-- <Map /> -->
       <!-- <Plot /> -->
       <div class="flex w-full gap-6">
@@ -27,12 +27,22 @@
           />
         </button>
       </div>
+      <div v-if="currentCity === City.Yekaterinburg" class="flex gap-6">
+        <!-- <Map /> -->
+        <div class="flex-1">
+          <Plot />
+        </div>
+        <div class="w-1/3">
+          <img src="/yekaterinburg-data.jpg"/>
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-// import Plot from '../components/Plot.vue';
+import Plot from "../components/Plot.vue";
+// import Map from '../components/Map.vue';
 import { ref } from "vue";
 import Card from "../components/Card.vue";
 import Header from "../components/Header.vue";

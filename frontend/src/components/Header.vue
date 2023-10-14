@@ -1,5 +1,10 @@
 <template>
-  <div class="bg-cyan-950">
+  <div class="text-4xl text-cyan-900 mx-auto max-w-screen-2xl p-8">
+    <router-link to="/home" class="cursor-pointer hover:opacity-90">
+      ← назад на главную
+    </router-link>
+  </div>
+  <!-- <div class="bg-cyan-950">
     <div class="mx-auto max-w-screen-2xl p-8 flex items-center gap-20 text-xl font-light">
       <router-link to="/home">
         <img src="/logo_white.svg" class="w-32 h-32" alt="logo" />
@@ -20,5 +25,5 @@
         </span>
       </router-link>
     </div>
-  </div>
+  </div> -->
 </template>
