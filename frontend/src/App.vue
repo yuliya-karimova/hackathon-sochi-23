@@ -1,6 +1,8 @@
 <template>
-  <div>
-    <router-view />
+  <div class="flex flex-col min-h-screen">
+    <div class="flex-1">
+      <router-view />
+    </div>
     <Footer />
     <button
       class="bg-amber-500 text-cyan-950 font-bold rounded-full fixed bottom-10 right-10 h-14 w-14 text-4xl flex items-center justify-center pb-1 hover:pb-3 duration-150"

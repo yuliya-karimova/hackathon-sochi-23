@@ -2,21 +2,21 @@
   <div>
     <div class="flex items-center mx-auto max-w-screen-lg px-8 pb-12 pt-20">
       <div class="w-full sm:w-2/3 uppercase z-10">
-        <div class="text-3xl sm:text-5xl ">
+        <div class="text-3xl sm:text-5xl">
           <div>Городская</div>
           <div>инфраструктура и</div>
           <div class="font-bold text-6xl sm:text-8xl mb-12">здоровье</div>
         </div>
-        <div class="flex gap-4 sm:gap-6 flex-col sm:flex-row">
+        <div class="flex gap-3 md:gap-6 flex-col md:flex-row">
           <router-link
             to="/analysis"
-            class="rounded-sm h-8 bg-cyan-900 text-white p-6 flex items-center justify-center text-lg font-medium"
+            class="rounded-sm bg-gray-300 py-3 px-5 flex items-center justify-center text-sm sm:text-lg font-medium w-64 sm:w-auto"
           >
             Получить анализ города
           </router-link>
           <router-link
             to="/compare"
-            class="rounded-sm h-8 bg-cyan-500 p-6 flex items-center justify-center text-lg font-medium"
+            class="rounded-sm bg-cyan-600 bg-opacity-60 py-3 px-5 flex items-center justify-center text-sm sm:text-lg font-medium w-64 sm:w-auto"
           >
             Сравнить города
           </router-link>
@@ -39,21 +39,26 @@
         </div>
         <div class="text-xl sm:text-2xl flex flex-col gap-10">
           <div>
-            Добро пожаловать на наш веб-сайт, посвященный анализу влияния
-            инфраструктуры города на здоровье горожан! Здесь мы изучаем
-            различные факторы, такие как детские площадки, парки и освещение
-            улиц, оцениваем их положительное и отрицательное влияние, чтобы
-            предложить оптимальные рекомендации.
+            Добро пожаловать на наш сайт, посвященный анализу влияния
+            инфраструктуры города на здоровье населения! Для наглядности вам
+            будет представлена интерактивная карта, на которой отображаются
+            объекты городской инфраструктуры, а также их влияние на здоровье
+            населения.
+          </div>
+          <div class="flex flex-col gap-2">
+            <div>Более 150 городов России</div>
+            <div>150+ признаков инфраструктуры</div>
+            <div>Глубокий статистический анализ</div>
+            <div>Технологии градиентного бустинга для моделирования (ИИ)</div>
+            <div>Основные факторы здоровья горожан под нашим микроскопом</div>
           </div>
           <div>
-            На карте города будут отмечены места с позитивными и негативными
-            факторами, которые могут влиять на здоровье людей. Опираясь на
-            собранные данные, мы предлагаем решения по улучшению городской среды
-            для повышения благополучия горожан.
-          </div>
-          <div>
-            Цветовая гамма сайта выбрана с особым вниманием, чтобы создать
-            светлую, жизнерадостную и спокойную атмосферу!
+            Команда "AI Sister" провела комплексный исследовательский проект,
+            целью которого является анализ городской инфраструктуры и её влияния
+            на здоровье населения. Произведен детальный статистический анализ,
+            позволяющий выделить ключевые факторы, влияющие на здоровье горожан.
+            Для прогнозирования показателей здоровья была разработана модель на
+            основе алгоритма градиентного бустинга catboost.
           </div>
         </div>
       </div>
@@ -79,7 +84,7 @@
       <div
         class="flex flex-col mx-auto max-w-screen-lg px-8 py-12 xl:py-28 text-white"
       >
-        <div class="flex flex-col gap-8 md:gap-12 xl:mb-24">
+        <div class="flex flex-col gap-8 md:gap-8 xl:gap-12 xl:mb-24">
           <div class="text-3xl sm:text-5xl font-bold">
             Приступить к анализу!
           </div>
@@ -148,9 +153,9 @@
           <div
             class="bg-white bg-opacity-10 md:w-4/6 rounded-2xl flex flex-col items-center justify-center px-12 h-52 sm:h-72 gap-4 sm:gap-8"
           >
-            <div class="text-6xl sm:text-8xl font-bold">152</div>
-            <div class="text-xl">
-              использовали для построения модели машинного обучения
+            <div class="text-6xl sm:text-8xl font-bold">150+</div>
+            <div class="text-xl text-center">
+              городов использовали для построения модели машинного обучения
             </div>
           </div>
           <div
@@ -175,14 +180,16 @@
           <div
             class="bg-white bg-opacity-10 md:w-4/6 rounded-2xl flex flex-col items-center justify-center px-12 h-52 sm:h-72 gap-4 sm:gap-8"
           >
-            <div class="text-6xl sm:text-8xl font-bold">150</div>
-            <div class="text-xl">факторов городской среды учтено в анализе</div>
+            <div class="text-6xl sm:text-8xl font-bold">150+</div>
+            <div class="text-xl text-center">
+              факторов городской среды учтено в анализе
+            </div>
           </div>
         </div>
       </div>
     </div>
 
-    <div
+    <!-- <div
       class="flex flex-col gap-12 sm:gap-20 mx-auto max-w-screen-lg px-8 py-12 sm:py-24"
     >
       <Content
@@ -197,8 +204,8 @@
         img="./night.jpg"
         textAlign="left"
       />
-    </div>
-
+    </div> -->
+    <!-- 
     <div class="bg-cyan-950">
       <div
         class="flex flex-col mx-auto max-w-screen-lg px-8 py-12 sm:py-24 text-white"
@@ -209,14 +216,12 @@
             description="Возможность выбора населенного пункта на карте"
             img="./city.jpg"
             class="lg:w-4/6"
-            cardClass="bg-white bg-opacity-10"
           />
           <Card
             title="Анализ данных"
             description="Учет множества факторов"
             img="./analysis.jpg"
             class="lg:w-2/6"
-            cardClass="bg-white bg-opacity-10"
           />
         </div>
 
@@ -226,48 +231,46 @@
             description="Поиск эффективных решений"
             img="./park.jpg"
             class="lg:w-2/6"
-            cardClass="bg-white bg-opacity-10"
           />
           <Card
             title="Здоровье"
             description="Повышение уровня здоровья населения за счет качественного анализа"
             img="./child.jpg"
             class="lg:w-4/6"
-            cardClass="bg-white bg-opacity-10"
           />
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div
       class="flex flex-col gap-6 sm:gap-12 mx-auto max-w-screen-lg px-8 py-12 sm:py-24"
     >
-      <div class="text-3xl text-red-600 uppercase font-bold">Немного о нас</div>
+      <div class="text-3xl text-red-600 uppercase font-bold">Немного о проекте</div>
       <div
-        class="flex flex-col sm:flex-row gap-12 md:gap-20 font-light justify-between"
+        class="flex flex-col sm:flex-row gap-12 md:gap-16 font-light justify-between"
       >
-        <div class="w-full sm:w-1/3">
-          <div class="text-red-600 mb-2">Почему мы этим занимаемся?</div>
-          <div>
-            Мы анализируем, как факторы городской среды влияют на здоровье
-            населения, пссихологическую обстановку, уровень жизни. Повышение
-            уровня здоровья населения за счет качественного анализа
-          </div>
-        </div>
         <div class="w-full sm:w-1/3">
           <div class="text-red-600 mb-2">Как мы анализируем?</div>
           <div>
-            Мы анализируем, как факторы городской среды влияют на здоровье
-            населения, пссихологическую обстановку, уровень жизни. Повышение
-            уровня здоровья населения за счет качественного анализа
+            Мы проводим глубокий статистический анализ городской инфраструктуры,
+            выделяя ключевые факторы, которые влияют на здоровье горожан,
+            пссихологическую обстановку, уровень жизни.
           </div>
         </div>
         <div class="w-full sm:w-1/3">
           <div class="text-red-600 mb-2">Какие технологии применяем?</div>
           <div>
-            Мы анализируем, как факторы городской среды влияют на здоровье
-            населения, пссихологическую обстановку, уровень жизни. Повышение
-            уровня здоровья населения за счет качественного анализа
+            Применяем технологии градиентного бустинга для моделирования,
+            используя алгоритм catboost, и разрабатываем веб-приложение для
+            визуализации результатов.
+          </div>
+        </div>
+        <div class="w-full sm:w-1/3">
+          <div class="text-red-600 mb-2">Почему это важно?</div>
+          <div>
+            Это важно, потому что понимание взаимосвязи между городской средой и
+            здоровьем может помочь органам местного самоуправления принимать
+            обоснованные решения по улучшению жизни горожан.
           </div>
         </div>
       </div>
@@ -276,6 +279,6 @@
 </template>
 
 <script setup lang="ts">
-import Card from "../components/Card.vue";
-import Content from "../components/Content.vue";
+// import Card from "../components/home/Card.vue";
+// import Content from "../components/home/Content.vue";
 </script>

@@ -1,8 +1,14 @@
 <template>
-  <div class="text-4xl text-cyan-900 mx-auto max-w-screen-2xl p-8">
-    <router-link to="/home" class="cursor-pointer hover:opacity-90">
-      ← назад на главную
-    </router-link>
+  <div class="mx-auto max-w-screen-2xl p-8">
+    <div class=max-w-max>
+      <router-link
+        to="/home"
+        class="text-3xl md:text-3xl text-cyan-900 cursor-pointer hover:opacity-90 uppercase flex flex-col gap-2"
+      >
+        <div>←</div>
+        <div>назад на главную</div>
+      </router-link>
+    </div>
   </div>
   <!-- <div class="bg-cyan-950">
     <div class="mx-auto max-w-screen-2xl p-8 flex items-center gap-20 text-xl font-light">

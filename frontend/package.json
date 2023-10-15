@@ -11,6 +11,7 @@
     "deploy": "cd dist && cp index.html 404.html"
   },
   "dependencies": {
+    "@vueuse/core": "^10.5.0",
     "leaflet-geosearch": "^3.10.0",
     "vue": "^3.3.4",
     "vue-router": "^4.0.13",
