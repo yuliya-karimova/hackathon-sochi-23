@@ -255,6 +255,7 @@
             Мы проводим глубокий статистический анализ городской инфраструктуры,
             выделяя ключевые факторы, которые влияют на здоровье горожан,
             пссихологическую обстановку, уровень жизни.
+            <a href="https://docs.google.com/document/d/1MLZWv50G2NsVR8M4cSz2kHZTQl2jJ3bF/edit?usp=sharing&ouid=113982104465456762424&rtpof=true&sd=true" class="text-red-600">Отчет о проекте</a>
           </div>
         </div>
         <div class="w-full sm:w-1/3">
